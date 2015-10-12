@@ -28,7 +28,7 @@
 ## 获取和更新BOOS的血量
 
 
-*更新BOOS的血量 
+* 更新BOOS的血量 
 
 ` int attack(int bossId, int damage, String playerId);*`
 
