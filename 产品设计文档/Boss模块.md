@@ -28,19 +28,15 @@
 ## 获取和更新BOOS的血量
 
 
-* 更新BOOS的血量 
-
-` int attack(int bossId, int damage, String playerId);*`
-
-    
-** 描述角色对BOOS的伤害量 ，从而更新BOSS的血量
-
-       
-*获取BOOS当前的血量 
-
-` int getCurrentHP(int bossId, String playerId);*`
-        
-** 通过计算来获取BOOS的血量
+ 1. 更新BOOS的血量 
+  * 描述角色对BOOS的伤害量 ，从而更新BOSS的血量
+    <pre> ` int attack(int bossId, int damage, String playerId);`
+    </pre>
+ 2. 获取BOOS当前的血量 
+   * 通过计算来获取BOOS的血量
+  <pre>` int getCurrentHP(int bossId, String playerId);*`
+ </pre>   
+ 
 
 
 
