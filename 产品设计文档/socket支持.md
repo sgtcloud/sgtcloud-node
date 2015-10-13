@@ -23,6 +23,5 @@
 
 
 
-
 ## 客户端
 h5中使用Websocket做交互，前端框架工具选择[socketio](http://www.socket.io)，[github资料](https://github.com/socketio/socket.io-client)
