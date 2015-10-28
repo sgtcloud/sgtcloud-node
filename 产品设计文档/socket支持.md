@@ -17,9 +17,10 @@
 ## 服务端socket支持设计
 默认socket的根路径不可用，每个app的访问路径问`ws://host:port/{appid}/{NameSpace}`,appid为每个app的唯一标识，namespace为自定义。
 
-### NameSpace定义
-只需要配置注解`@SgtSocketServer`即可，属性包含：
-* `ns`，必填，命名空间名称，即{NameSpace}所需值 
+### ~~NameSpace定义~~ 
+
+~~只需要配置注解`@SgtSocketServer`即可，属性包含：~~
+* ~~`ns`，必填，命名空间名称，即{NameSpace}所需值~~
 
 
 
