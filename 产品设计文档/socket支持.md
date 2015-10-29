@@ -22,6 +22,13 @@
 ~~只需要配置注解`@SgtSocketServer`即可，属性包含：~~
 * ~~`ns`，必填，命名空间名称，即{NameSpace}所需值~~
 
+### 内置事件
+* 频道内群发消息`mass`
+* 发送一对一消息`message`
+* 创建房间`createRoom`
+* 进入房间`joinRoom`
+* 退出房间`leaveRoom`
+* 房间内群发`roomMass`
 
 
 
