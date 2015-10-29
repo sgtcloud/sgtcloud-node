@@ -35,3 +35,5 @@
 
 ## 客户端
 h5中使用Websocket做交互，前端框架工具选择[socketio](http://www.socket.io)，[github资料](https://github.com/socketio/socket.io-client)
+
+客户端默认不加载websocket模块，需要调用模块初始化方法以动态加载模块并初始化
