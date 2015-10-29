@@ -30,6 +30,10 @@
 * 退出房间`leaveRoom`
 * 房间内群发`roomMass`
 
+### 消息格式定义
+* 消息内容`message`
+* 房间ID`roomId`
+* 目标角色的socket sessionID `targetId`
 
 
 
