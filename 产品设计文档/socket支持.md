@@ -42,5 +42,5 @@ h5中使用Websocket做交互，前端框架工具选择[socketio](http://www.so
 
 客户端默认不加载websocket模块，需要调用模块初始化方法以动态加载模块并初始化
 ### 客户端接口
-* `SgtApi.socket.ceate(spaceName)`创建一个socketio对象，并初始化socket模块加载socketio库,同时建立socket连接,参数为命名空间，参数可为空，默认建立服务器保留的命名空间连接(以`{appid}`命名)。接口返回socketio的对象，可以调用socketio原始的api
+* `SgtApi.socket.ceate(spaceName)`创建一个socketio对象，并初始化socket模块加载socketio库,同时建立socket连接,参数为命名空间，参数可为空，默认建立服务器保留的命名空间连接(以`{appid}`命名)。返回socketio对象，可以调用socketio原始的api
 
