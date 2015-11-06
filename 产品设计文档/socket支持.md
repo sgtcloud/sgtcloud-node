@@ -15,7 +15,7 @@
 不足的地方 是netty+socket.io没有官方支持，而且网上现有资料太少
 
 ## 服务端socket支持设计
-默认socket的根路径不可用，每个app的访问路径问`ws://host:port/{appid}/{NameSpace}`,appid为每个app的唯一标识，namespace为自定义。
+默认socket的根路径不可用，每个app的访问路径为`ws://host:port/{appid}/{NameSpace}`,appid为每个app的唯一标识，namespace为自定义。
 
 ### ~~NameSpace定义~~ 
 
